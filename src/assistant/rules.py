@@ -6,7 +6,7 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
 
-GREETINGS = {"hi", "hello", "hey", "xin chao", "chao"}
+GREETINGS = {"hi", "hello", "hey", "xin chao", "chao", "good morning"}
 
 
 def load_offices(path: Path = DATA_DIR / "offices.csv") -> dict[str, dict[str, str]]:
